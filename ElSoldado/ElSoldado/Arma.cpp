@@ -1,6 +1,7 @@
 #include <string>
 using namespace std;
 
+// Dependencia (asociacion dirigida) del Modelo
 class Arma
 {
 protected:

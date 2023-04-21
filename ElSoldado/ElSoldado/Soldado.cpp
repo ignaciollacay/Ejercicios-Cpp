@@ -2,7 +2,7 @@
 #include "Arma.cpp"
 using namespace std;
 
-// Presentador?
+// Modelo
 class Soldado
 {
 public:
@@ -38,5 +38,5 @@ public:
 			cout << "Debes recoger un arma para poder disparar." << endl;
 	}
 private:
-	Arma* arma; //Dependencia (asociacion dirigida)
+	Arma* arma; 
 };
